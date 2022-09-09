@@ -180,7 +180,7 @@ h4{
     color: grey;
     padding-top: -0px;
 }
-@media screen and (max-width: 751px) {
-    .left, .main, .right {
+@media screen and (max-width: 500px) {
+    .view-img,.view {
       width: 100%; /* The width is 100%, when the viewport is 751px or smaller */
     }
