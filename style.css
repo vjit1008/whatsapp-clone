@@ -106,6 +106,7 @@ body{
     margin-left: 350px;
     margin-top:-600px;
     position:sticky;
+    
 }
 .people{
     height: 50px;
@@ -179,3 +180,7 @@ h4{
     color: grey;
     padding-top: -0px;
 }
+@media screen and (max-width: 751px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 751px or smaller */
+    }
